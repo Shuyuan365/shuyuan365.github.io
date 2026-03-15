@@ -86,8 +86,7 @@ export default function Home() {
                   7-engineer workstream building ML-detected messaging outcomes across Meta Business Suite, 
                   Instagram, and Messenger. Drove cross-functional collaboration with design and privacy teams. 
                   Built the Messenger and Instagram Business Inbox labeling system, enabling businesses to organize 
-                  customer interactions. Designed and ran 30+ content experiments yielding +20.78K monthly engaged 
-                  business admins.
+                  customer interactions.
                 </p>
                 <p>
                   <strong className="text-foreground">Business Notification Platform (2020-2022):</strong> 
@@ -98,38 +97,7 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Key Achievements */}
-            <div className="bg-card border border-border rounded-lg p-6 hover:border-accent transition-colors">
-              <h4 className="text-lg font-bold text-foreground mb-4">
-                Key Achievements
-              </h4>
-              <ul className="space-y-2 text-muted-foreground">
-                <li className="flex gap-3">
-                  <span className="text-accent font-bold">•</span>
-                  <span>
-                    Shipped 3 products from 0-to-1, driving significant business impact
-                  </span>
-                </li>
-                <li className="flex gap-3">
-                  <span className="text-accent font-bold">•</span>
-                  <span>
-                    Led cross-functional teams (eng, design, data, privacy) across multiple platforms
-                  </span>
-                </li>
-                <li className="flex gap-3">
-                  <span className="text-accent font-bold">•</span>
-                  <span>
-                    Designed and ran 30+ A/B tests to optimize product adoption and engagement
-                  </span>
-                </li>
-                <li className="flex gap-3">
-                  <span className="text-accent font-bold">•</span>
-                  <span>
-                    Mentored 3 engineers and architected AI systems to improve team productivity
-                  </span>
-                </li>
-              </ul>
-            </div>
+
           </div>
         </div>
       </section>
@@ -154,7 +122,7 @@ export default function Home() {
               </p>
               <div className="mt-4 space-y-2 text-muted-foreground">
                 <p>
-                  <strong className="text-foreground">GPA:</strong> 4.93/5.00
+                  <strong className="text-foreground">GPA:</strong> 4.93/5.00 (Rank 2/493)
                 </p>
                 <p className="text-sm">
                   <strong className="text-foreground">Honors & Awards:</strong> Halbrecht Associates Prize, 
@@ -239,12 +207,12 @@ export default function Home() {
               {
                 title: "A/B Testing & Experimentation",
                 description:
-                  "Designing and running content experiments, analyzing metrics, and using data to optimize product adoption",
+                  "Designing and running experiments to optimize product adoption, engagement, and user experience across features",
               },
               {
-                title: "AI-Native Product Development",
+                title: "AI-Native Skills",
                 description:
-                  "Building AI agents and leveraging Claude for product scoping, design, and automation of recurring tasks",
+                  "Leveraging AI tools including MyClaw agents and Claude Code to optimize workflow, automate recurring tasks, and improve team productivity",
               },
             ].map((skill) => (
               <div
@@ -312,7 +280,7 @@ export default function Home() {
           </div>
 
           <p className="text-sm text-muted-foreground mt-12">
-            © 2026 Shuyuan Jin. Built with React, Tailwind CSS, and a focus on great products.
+            © 2026 Shuyuan Jin. Built with React, Tailwind CSS, and a focus on building great products.
           </p>
         </div>
       </section>
