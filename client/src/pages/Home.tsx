@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ExternalLink, Github, Linkedin, Mail } from "lucide-react";
+import { ExternalLink, Linkedin, Mail } from "lucide-react";
 
 export default function Home() {
   return (
@@ -27,17 +27,6 @@ export default function Home() {
               <a href="#contact" className="flex items-center gap-2">
                 Get in Touch
                 <Mail size={18} />
-              </a>
-            </Button>
-            <Button variant="outline">
-              <a
-                href="https://github.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-2"
-              >
-                GitHub
-                <Github size={18} />
               </a>
             </Button>
             <Button variant="outline">

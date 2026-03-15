@@ -83,26 +83,7 @@ export default function Navigation() {
           ))}
         </ul>
 
-        {/* Footer Info */}
-        <div className="pt-8 border-t border-sidebar-border space-y-4">
-          <div>
-            <p className="text-xs text-sidebar-accent uppercase tracking-wide">
-              Location
-            </p>
-            <p className="text-sm text-sidebar-foreground">Singapore</p>
-          </div>
-          <div>
-            <p className="text-xs text-sidebar-accent uppercase tracking-wide">
-              Contact
-            </p>
-            <a
-              href="mailto:shuyuanj12@gmail.com"
-              className="text-sm text-sidebar-accent hover:text-sidebar-primary transition-colors"
-            >
-              shuyuanj12@gmail.com
-            </a>
-          </div>
-        </div>
+
       </nav>
 
       {/* Mobile Overlay */}
