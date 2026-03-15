@@ -200,14 +200,24 @@ export default function Home() {
                   "Sizing adoption trajectories, setting success metrics, and shaping product roadmaps aligned with business goals",
               },
               {
-                title: "Cross-Functional Leadership",
+                title: "Full-Stack Development",
                 description:
-                  "Leading teams across engineering, design, data science, and privacy to ship products at scale",
+                  "Building end-to-end products with React, JavaScript, GraphQL, Python, and Hack. Designing scalable architectures and shipping features across web platforms",
               },
               {
                 title: "A/B Testing & Experimentation",
                 description:
-                  "Designing and running experiments to optimize product adoption, engagement, and user experience across features",
+                  "Designing and running experiments to optimize product adoption, engagement, and user experience. Analyzing metrics and driving data-informed decisions",
+              },
+              {
+                title: "Data Analysis & Insights",
+                description:
+                  "Analyzing product metrics, user behavior, and business impact. Using data to inform roadmap priorities and validate product hypotheses",
+              },
+              {
+                title: "Cross-Functional Leadership",
+                description:
+                  "Leading teams across engineering, design, data science, and privacy to ship products at scale",
               },
               {
                 title: "AI-Native Skills",
@@ -256,7 +266,7 @@ export default function Home() {
             </Button>
             <Button size="lg" variant="outline">
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/stella-shuyuanjin/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2"
