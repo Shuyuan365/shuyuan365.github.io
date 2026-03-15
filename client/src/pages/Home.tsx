@@ -241,8 +241,7 @@ export default function Home() {
             Let's Connect
           </h2>
           <p className="text-lg text-muted-foreground mb-12">
-            I'm always interested in discussing product strategy, building teams, and 
-            exploring new opportunities. Feel free to reach out!
+            I'm always interested in discussing products and exploring new opportunities. Feel free to reach out!
           </p>
 
           <div className="flex gap-4 justify-center flex-wrap">
@@ -266,21 +265,10 @@ export default function Home() {
                 <Linkedin size={20} />
               </a>
             </Button>
-            <Button size="lg" variant="outline">
-              <a
-                href="https://github.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-2"
-              >
-                GitHub
-                <Github size={20} />
-              </a>
-            </Button>
           </div>
 
           <p className="text-sm text-muted-foreground mt-12">
-            © 2026 Shuyuan Jin. Built with React, Tailwind CSS, and a focus on building great products.
+            © 2026 Shuyuan Jin. Focused on building great products.
           </p>
         </div>
       </section>
