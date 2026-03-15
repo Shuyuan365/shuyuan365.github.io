@@ -49,7 +49,7 @@ export default function Navigation() {
             Shuyuan Jin
           </h1>
           <p className="text-sm text-sidebar-accent mt-2">
-            Senior Software Engineer
+            Software Engineer
           </p>
         </div>
 

@@ -10,9 +10,13 @@ export default function Home() {
         className="min-h-screen flex items-center justify-center px-4 md:px-12 py-20"
       >
         <div className="max-w-3xl w-full">
-          <h1 className="text-5xl md:text-6xl font-bold text-foreground mb-6">
-            Building Products That Scale
+          <p className="text-accent text-lg font-semibold mb-3">Hi, I'm</p>
+          <h1 className="text-5xl md:text-6xl font-bold text-foreground mb-4">
+            Shuyuan Jin
           </h1>
+          <h2 className="text-2xl md:text-3xl font-semibold text-muted-foreground mb-6">
+            Building Products That Scale
+          </h2>
           <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
             I'm a Senior Software Engineer at Meta with expertise in building and scaling 
             products that drive business impact. My work spans from shipping 0-to-1 products 
