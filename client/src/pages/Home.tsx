@@ -31,7 +31,7 @@ export default function Home() {
             </Button>
             <Button variant="outline">
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/stella-shuyuanjin/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2"
@@ -204,7 +204,7 @@ export default function Home() {
                   "Analyzing product metrics, user behavior, and business impact. Using data to inform roadmap priorities and validate product hypotheses",
               },
               {
-                title: "Cross-Functional Leadership",
+                title: "Cross-Functional Collaboration",
                 description:
                   "Leading teams across engineering, design, data science, and privacy to ship products at scale",
               },
