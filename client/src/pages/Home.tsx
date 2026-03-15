@@ -14,10 +14,10 @@ export default function Home() {
             Building Products That Scale
           </h1>
           <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-            I'm a Senior Product Engineer at Meta with expertise in building and scaling 
+            I'm a Senior Software Engineer at Meta with expertise in building and scaling 
             products that drive business impact. My work spans from shipping 0-to-1 products 
-            generating millions in revenue to leading cross-functional teams and designing 
-            A/B testing frameworks that power data-driven decisions.
+            to leading cross-functional teams and designing A/B testing frameworks that power 
+            data-driven decisions.
           </p>
           <div className="flex gap-4 flex-wrap">
             <Button
@@ -69,31 +69,31 @@ export default function Home() {
             {/* Meta Role 1 */}
             <div className="border-l-4 border-accent pl-6">
               <h3 className="text-2xl font-bold text-foreground">
-                Senior Product Engineer
+                Senior Software Engineer
               </h3>
               <p className="text-accent text-lg font-semibold mt-1">
                 Meta (Facebook) • 2020 - Present
               </p>
               <div className="mt-4 space-y-3 text-muted-foreground">
                 <p>
-                  <strong className="text-foreground">Live Video Ads (2025 - Present):</strong> Architected 
-                  and shipped a 0-to-1 live video ads MVP for Southeast Asia e-commerce partners, 
-                  achieving $3.6K daily revenue. Owned full product lifecycle from ideation to launch, 
-                  led technical integrations with 5+ partners, and designed A/B testing framework for 
-                  feature optimization.
+                  <strong className="text-foreground">Live Video Ads (2025 - Present):</strong> Drove the 
+                  marketplace ads workstream to deliver a 0-to-1 live video ads product. Led technical integrations 
+                  with top Southeast Asia e-commerce partners. Sized adoption trajectory and set success metrics with 
+                  data scientists. Architected an AI oncall agent to automate recurring tasks and mentored 3 engineers.
                 </p>
                 <p>
-                  <strong className="text-foreground">ML Detected Outcomes (2022-2024):</strong> Led a 
-                  7-engineer product team building ML-detected messaging outcomes across Meta Business Suite, 
-                  Instagram, and Messenger. Shipped 12+ features generating +11.34K/day in business messaging 
-                  ads revenue. Designed experimentation strategy and mentored 3 junior engineers on product 
-                  thinking.
+                  <strong className="text-foreground">Business Messaging Outcomes (2022-2024):</strong> Led a 
+                  7-engineer workstream building ML-detected messaging outcomes across Meta Business Suite, 
+                  Instagram, and Messenger. Drove cross-functional collaboration with design and privacy teams. 
+                  Built the Messenger and Instagram Business Inbox labeling system, enabling businesses to organize 
+                  customer interactions. Designed and ran 30+ content experiments yielding +20.78K monthly engaged 
+                  business admins.
                 </p>
                 <p>
                   <strong className="text-foreground">Business Notification Platform (2020-2022):</strong> 
-                  Built the Messenger and Instagram Business Inbox labeling system with 1M+ daily labels, 
-                  designed 30+ content experiments yielding +20.78K monthly engaged business admins. Collaborated 
-                  with design, data science, and privacy teams to ship features across 3 platforms.
+                  Revamped notification creation and testing interface into a streamlined workflow. Designed and ran 
+                  30+ content experiments across major business-facing notifications. Structured a comprehensive 
+                  knowledge library and partnered with technical documentation team to enable self-serve troubleshooting.
                 </p>
               </div>
             </div>
@@ -107,25 +107,25 @@ export default function Home() {
                 <li className="flex gap-3">
                   <span className="text-accent font-bold">•</span>
                   <span>
-                    Shipped 3 products from 0-to-1, generating $15K+ daily revenue combined
+                    Shipped 3 products from 0-to-1, driving significant business impact
                   </span>
                 </li>
                 <li className="flex gap-3">
                   <span className="text-accent font-bold">•</span>
                   <span>
-                    Led cross-functional teams (eng, design, data, privacy) across 3 platforms
+                    Led cross-functional teams (eng, design, data, privacy) across multiple platforms
                   </span>
                 </li>
                 <li className="flex gap-3">
                   <span className="text-accent font-bold">•</span>
                   <span>
-                    Designed A/B testing frameworks that improved feature adoption by 40%+
+                    Designed and ran 30+ A/B tests to optimize product adoption and engagement
                   </span>
                 </li>
                 <li className="flex gap-3">
                   <span className="text-accent font-bold">•</span>
                   <span>
-                    Mentored 3+ junior engineers; 2 promoted to senior roles
+                    Mentored 3 engineers and architected AI systems to improve team productivity
                   </span>
                 </li>
               </ul>
@@ -227,14 +227,9 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {[
               {
-                title: "Product Strategy",
+                title: "Product Strategy & Roadmapping",
                 description:
-                  "Defining product vision, roadmap planning, and go-to-market strategy for new features and products",
-              },
-              {
-                title: "Growth & Monetization",
-                description:
-                  "Designing revenue models, A/B testing frameworks, and growth experiments that drive user engagement",
+                  "Sizing adoption trajectories, setting success metrics, and shaping product roadmaps aligned with business goals",
               },
               {
                 title: "Cross-Functional Leadership",
@@ -242,9 +237,14 @@ export default function Home() {
                   "Leading teams across engineering, design, data science, and privacy to ship products at scale",
               },
               {
-                title: "Data-Driven Decisions",
+                title: "A/B Testing & Experimentation",
                 description:
-                  "Designing experiments, analyzing metrics, and using data to inform product decisions",
+                  "Designing and running content experiments, analyzing metrics, and using data to optimize product adoption",
+              },
+              {
+                title: "AI-Native Product Development",
+                description:
+                  "Building AI agents and leveraging Claude for product scoping, design, and automation of recurring tasks",
               },
             ].map((skill) => (
               <div
@@ -273,8 +273,8 @@ export default function Home() {
             Let's Connect
           </h2>
           <p className="text-lg text-muted-foreground mb-12">
-            I'm always interested in discussing product strategy, growth opportunities, 
-            and building teams. Feel free to reach out!
+            I'm always interested in discussing product strategy, building teams, and 
+            exploring new opportunities. Feel free to reach out!
           </p>
 
           <div className="flex gap-4 justify-center flex-wrap">
