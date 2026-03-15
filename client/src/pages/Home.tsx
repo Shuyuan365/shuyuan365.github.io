@@ -156,7 +156,7 @@ export default function Home() {
               <div className="mt-4">
                 <Button variant="outline" size="sm">
                   <a
-                    href="https://openaccess.thecvf.com/content_CVPR_2019/papers/Jain_Structural-RNN_Deep_Learning_on_Spatio-Temporal_Graphs_CVPR_2019_paper.pdf"
+                    href="https://openaccess.thecvf.com/content_CVPR_2019/papers/Liu_Towards_Natural_and_Accurate_Future_Motion_Prediction_of_Humans_and_CVPR_2019_paper.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-2"
