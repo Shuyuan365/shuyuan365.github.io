@@ -171,11 +171,38 @@ export default function Home() {
                 </Button>
               </div>
             </div>
+            <div className="border-l-4 border-accent pl-6">
+              <h3 className="text-2xl font-bold text-foreground">
+                Autonomous Driving in Simulator
+              </h3>
+              <p className="text-accent text-lg font-semibold mt-2">
+                2019 – 2020
+              </p>
+              <p className="text-muted-foreground mt-4">
+                <strong className="text-foreground">Advisor:</strong> Prof David Hsu, Adaptive Computing Lab, National University of Singapore
+              </p>
+              <p className="text-muted-foreground mt-3">
+                Created the Waypoint-Drive system to solve the crowd-driving problem by integrating neural networks with robotic planning under the "learning globally, planning locally" paradigm. The neural network predicts a waypoint; the planner determines the optimal action to reach it.
+              </p>
+              <div className="mt-4">
+                <Button variant="outline" size="sm">
+                  <a
+                    href="https://github.com/Shuyuan365/FYP-autonomous-driving/blob/main/FYP_Final_Report_Shuyuan.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-2"
+                  >
+                    Read Dissertation
+                    <ExternalLink size={16} />
+                  </a>
+                </Button>
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
-      {/* Product Skills Section */}
+      {/* Skills Section */}
       <section
         id="projects"
         className="min-h-screen flex items-center justify-center px-4 md:px-12 py-20 border-t border-border"
@@ -230,6 +257,50 @@ export default function Home() {
                 </p>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Learnings Section */}
+      <section
+        id="learnings"
+        className="min-h-screen flex items-center justify-center px-4 md:px-12 py-20 border-t border-border"
+      >
+        <div className="max-w-3xl w-full">
+          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-12">
+            Learnings
+          </h2>
+
+          <div className="space-y-8">
+            <div className="border-l-4 border-accent pl-6">
+              <h3 className="text-2xl font-bold text-foreground">
+                Machine Learning Specialization
+              </h3>
+              <p className="text-accent text-lg font-semibold mt-1">
+                DeepLearning.AI & Stanford Online • Apr 2026
+              </p>
+              <p className="text-muted-foreground mt-3">
+                Completed all 3 courses taught by Andrew Ng, covering supervised learning (linear &amp; logistic regression, neural networks, decision trees), unsupervised learning (clustering, anomaly detection), recommender systems, and reinforcement learning.
+              </p>
+              <ul className="mt-3 space-y-1 text-muted-foreground text-sm list-disc list-inside">
+                <li>Supervised Machine Learning: Regression and Classification</li>
+                <li>Advanced Learning Algorithms</li>
+                <li>Unsupervised Learning, Recommenders, Reinforcement Learning</li>
+              </ul>
+              <div className="mt-4">
+                <Button variant="outline" size="sm">
+                  <a
+                    href="https://coursera.org/verify/specialization/V1DIC659FBMK"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-2"
+                  >
+                    View Certificate
+                    <ExternalLink size={16} />
+                  </a>
+                </Button>
+              </div>
+            </div>
           </div>
         </div>
       </section>
